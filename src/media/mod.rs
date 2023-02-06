@@ -146,7 +146,7 @@ struct RawMedia {
 
 #[derive(Debug, Clone, derive_more::From)]
 /// An opaque type representing a media id.
-pub struct MediaId(pub(crate) String);
+pub struct MediaId(pub String);
 
 /// A handle representing uploaded media.
 #[derive(Debug, Clone)]
